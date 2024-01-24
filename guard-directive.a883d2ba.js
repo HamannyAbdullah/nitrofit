@@ -1,0 +1,1 @@
+import{b as o,u as i}from"./index.f4591746.js";const m=i();var p=o(async({app:n})=>{n.directive("guard",(e,c,t)=>{const{arg:r}=c;if(!m.isGuard(r)){const a=document.createComment(` guard:${r} `);t.elm=a,t.text=" ",t.isComment=!0,t.context=void 0,t.tag=void 0,t.componentInstance&&(t.componentInstance.$el=a),e.parentNode&&e.parentNode.replaceChild(a,e)}})});export{p as default};
